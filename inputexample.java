@@ -8,7 +8,8 @@ public class inputexample {
 		sc.nextLine();
 		System.out.println("enter the Name");
 		String name = sc.nextLine();
-		System.out.println(name+age);		
+		System.out.println(name+age);
+		sc.close();
 	}
 
 }
