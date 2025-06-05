@@ -1,5 +1,4 @@
 package xyz;
-		import java.util.LinkedHashMap;
 		import java.util.LinkedHashSet;
 		public class FavoriteCandy {
 

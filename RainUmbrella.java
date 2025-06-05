@@ -12,7 +12,7 @@ public class RainUmbrella {
 		}else {
 			System.out.println("no need of an umbrella");
 		}
-		
+		sc.close();
 
 	}
 
