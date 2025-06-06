@@ -4,13 +4,9 @@ import java.util.Scanner;
 public class switchstmt {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Ask user to enter day number
+        Scanner scanner = new Scanner(System.in); 
         System.out.print("Enter day number (1-7): ");
         int day = scanner.nextInt();
-
-        // Use switch-case to determine the day name
         switch (day) {
             case 1:
                 System.out.println("Sunday");
@@ -36,8 +32,6 @@ public class switchstmt {
             default:
                 System.out.println("Invalid day number! Please enter a number from 1 to 7.");
         }
-
-        // Close scanner
         scanner.close();
     }
 }
